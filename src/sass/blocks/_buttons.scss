@@ -1,0 +1,29 @@
+.button {
+  border: 2px solid #f13c6e;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background-color: transparent;
+  width: 170px;
+  height: 40px;
+  transition: 0.3s all;
+  &:hover {
+    background-color: $color-red;
+    color: white;
+  }
+  &_armchair {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    margin-top: 50px;
+    &:hover {
+      background-color: #fff;
+      color: $color-red;
+    }
+  }
+}
