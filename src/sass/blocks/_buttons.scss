@@ -1,6 +1,5 @@
 .button {
   border: 2px solid #f13c6e;
-  box-sizing: border-box;
   border-radius: 40px;
   background-color: transparent;
   width: 170px;
@@ -24,6 +23,22 @@
     &:hover {
       background-color: #fff;
       color: $color-red;
+    }
+  }
+  &_catalog {
+    display: block;
+    width: 130px;
+    height: 35px;
+    background: #f13c6e;
+    border-radius: 30px;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #ffffff;
+    &:hover {
+      border: 2px solid #f13c6e;
+      background-color: transparent;
+      color: black;
     }
   }
 }

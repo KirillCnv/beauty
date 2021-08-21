@@ -1,0 +1,41 @@
+.catalog {
+  background-color: $color-grey;
+  padding-top: 80px;
+  &__offer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+}
+.catalog-item {
+  padding: 25px 30px;
+  width: 255px;
+  height: 363px;
+  background-color: #ffffff;
+  &__img {
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__subtitle {
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  &__price {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
