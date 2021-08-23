@@ -40,6 +40,16 @@ nav {
     min-height: 120px;
   }
 
+  &__phone {
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    &:hover {
+      color: $color-red;
+      text-decoration: none;
+    }
+  }
+
   &__search {
     background: #efefef;
     border-radius: 40px;

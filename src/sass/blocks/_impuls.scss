@@ -1,0 +1,18 @@
+.impuls {
+  background-color: $color-grey;
+  &__items {
+    padding-top: 100px;
+    // display: flex;
+    // // flex-wrap: wrap;
+    // justify-content: space-between;
+  }
+  &__item {
+    display: inline-block;
+    height: 120px;
+    width: 277px;
+    background-color: #ffff;
+    border: 1px solid #efefef;
+    padding-top: 35px;
+    padding-left: 60px;
+  }
+}
