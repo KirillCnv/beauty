@@ -53,5 +53,9 @@
     border: 2px solid #ffffff;
     border-radius: 30px;
     text-align: center;
+    &:hover {
+      background-color: #fff;
+      color: $color-red;
+    }
   }
 }

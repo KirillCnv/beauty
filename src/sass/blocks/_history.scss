@@ -1,6 +1,7 @@
-.catalog {
+.history {
   background-color: $color-grey;
   padding-top: 80px;
+  min-height: 590px;
   &__offer {
     font-family: Roboto;
     font-style: normal;
@@ -15,7 +16,7 @@
     margin-top: 30px;
   }
 }
-.catalog-item {
+.history-item {
   padding: 25px 30px;
   width: 255px;
   min-height: 363px;
